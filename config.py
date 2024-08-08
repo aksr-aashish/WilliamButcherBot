@@ -6,7 +6,7 @@ load_dotenv(
     "config.env" if os.path.isfile("config.env") else "sample_config.env"
 )
 
-BOT_TOKEN = "5221050210:AAHmrX6Vx1ebc36QJ5xGBpJMCdd9LlfnlA8"
+BOT_TOKEN = "5221050210:AAEuaIiqwK1MIOPX8ixHgKyUp1c-wEwpJnI"
 API_ID = int(os.environ.get("API_ID"))
 SESSION_STRING = os.environ.get("SESSION_STRING", "BQFYqSoAxWtU5iS1U7ZlW_dC4YY5PgJsV9lqxIGSvyBH1KzzDiwS9M1OqpMC8VquOLLdvDauOCVzmE6eto_sZwZAcBA9iG5nhkFlqgfGUX5jTJ2DduICJ1_ivSw1Fq69QeYn5n1DFD5L_nlkK_i1IrDcgoLomBVtwpnfb2RgnILLe8JCHYDrmlxRxv5CjHj6naL1_Wf7-b0DqCHxVsuHfSQJyBFBSqYVK47zvSHVHUIBHpWu7hVbVwlKrMAG65xV-5UV1JNy31Vja5z_NZIkyQwRZVdBdZyTZMuCcfDL-DRB-6HR5IajdZvzpaJXOsrJ0uPibiVoAoiBQewmdni3FNl1G5NrlAAAAAGkdF1FAA")
 API_HASH = os.environ.get("API_HASH")
